@@ -59,7 +59,3 @@ pip install uvicorn fastapi
 uvicorn app:app --reload --port 8001
 ```
 
-## Notes
-- The frontend is `frontend.py` and will POST JSON to the `API_URL` endpoint.
-- Default `API_URL` used by the frontend: `http://127.0.0.1:8001/predict`.
-- If you want, I can add a `requirements.txt` or a script to automate setup.
